@@ -24,7 +24,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     XLAnimationTextField *textField = [[XLAnimationTextField alloc] init];
-    textField.frame = CGRectMake(10, 100, 300, 60);
+    textField.frame = CGRectMake(20, 300, self.view.frame.size.width - 60, 120);
     
     [self.view addSubview:textField];
 }
